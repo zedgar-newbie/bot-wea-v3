@@ -1,4 +1,5 @@
 //starts
+//Author : Nazwa
 //Hayolo numpang nama doang
 //Ckckckck
 //Mengaku yang bukan punya nya
@@ -107,7 +108,7 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
 prefix = "#"
 blocked = []
 limitawal = userDefaultLimit
-cr = 'caselengkap.zip'
+cr = 'LOL~4NK3R-EROR'
 memberlimit = memberLimitss
 
 // Functions
@@ -537,9 +538,6 @@ async function starts() {
 			                const uangku = checkATMuser(sender)
                                         await costum(help(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
-                              case 'tes':
-                                         anker.sendMessage(from, 'nih case lengkap', text, cr)
-                                         break
                                 case '18+menu':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(adult(prefix, botName, ownerName), text, tescuk, cr)
@@ -642,6 +640,14 @@ async function starts() {
 				reply("Waktu habis")
 				}, timer)
 				break
+		case 'info':
+			me = client.user
+			user.push(sender)
+			uptime = process.uptime()
+			teks = `⟩➢ *Nama Bot* : ${me.name}\n⟩➢ *Nomer Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Aktif Sejak* : ${kyun(uptime)}\n\n⟩➢ *Instagram* : https://www.instagram.com/anker_2412\n⟩➢ *Special Thanks To* :\n⟩➢ Allah SWT \n⟩➢ MahankBarBar\n⟩Nurutomo\n⟩NazwaS\n⟩ANKER`
+			buffer = await getBuffer(me.imgUrl)
+			anker.sendMessage(from, buffer, image, {quoted: mek, caption: teks, contextInfo:{mentionedJid: [me.jid]}})
+			break 
                 case 'bahasa':
 		anker.sendMessage(from, bahasa(prefix, sender), text, {quoted: mek})
                 break
