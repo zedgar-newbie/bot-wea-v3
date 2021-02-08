@@ -21,7 +21,7 @@
 ---
 
 ## Information
-- Change vcard contacts on [this section](https://github.com/4NK3R-PRODUCT1ON/bot-wea-v3/blob/main/anker.js#L90)
+- Change vcard contacts on [this section](https://github.com/4NK3R-PRODUCT1ON/bot-wea-v3/blob/main/anker.js#L102)
 - Change Options on [this file](https://github.com/4NK3R-PRODUCT1ON/bot-wea-v3/blob/main/options/option.json)
 - Change menu on [this folders](https://github.com/4NK3R-PRODUCT1ON/bot-wea-v3/tree/main/database/menu)
 
