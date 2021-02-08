@@ -1306,6 +1306,16 @@ async function starts() {
                     anker.sendMessage(from, buffer, image, {quoted: mek, caption: 'neh...'})
                     await limitAdd(sender)
                     break
+		case 'tahta':
+                if (!isRegister) return reply(mess.only.daftarB)
+                    if (isLimit(sender)) return reply(ind.limitend(pusname))
+                tahta = `${body.slice(7)}`
+                     if (args.length < 1) return reply('Teksnya mana gan??')
+                     if (args.length > 10) return reply('karakter minimal 10')
+                     buff = await getBuffer(`https://api.zeks.xyz/api/hartatahta?text=${tahta}&apikey=apivinz`, {method: 'get'})
+                     anker.sendMessage(from, buff, image, {quoted: mek, caption: `Harta Tahta ${tahta}`})
+                  await limitAdd(sender) 
+                  break  
                     case 'glitch':
                     gh = body.slice(7)
                     if (!isRegister) return reply(mess.only.daftarB)
