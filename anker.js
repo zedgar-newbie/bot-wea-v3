@@ -644,7 +644,7 @@ async function starts() {
 			me = client.user
 			user.push(sender)
 			uptime = process.uptime()
-			teks = `⟩➢ *Nama Bot* : ${me.name}\n⟩➢ *Nomer Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Aktif Sejak* : ${kyun(uptime)}\n\n⟩➢ *Instagram* : https://www.instagram.com/anker_2412\n⟩➢ *Special Thanks To* :\n⟩➢ Allah SWT \n⟩➢ MahankBarBar\n⟩Nurutomo\n⟩NazwaS\n⟩ANKER`
+			teks = `⟩➢ *Nama Bot* : ${me.name}\n⟩➢ *Nomer Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Aktif Sejak* : ${kyun(uptime)}\n\n⟩➢ *Instagram* : https://www.instagram.com/anker_2412\n⟩➢ *Special Thanks To* :\n⟩➢ Allah SWT \n⟩NazwaS\n⟩ANKER`
 			buffer = await getBuffer(me.imgUrl)
 			anker.sendMessage(from, buffer, image, {quoted: mek, caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 			break 
