@@ -1,8 +1,6 @@
 //starts
 //Author : Nazwa
-//Hayolo numpang nama doang
-//Ckckckck
-//Mengaku yang bukan punya nya
+
 const {
     WAConnection,
     MessageType,
@@ -101,9 +99,9 @@ const { limit } = require('./database/menu/limit')
 // Load Vcard Contact
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:√ANKER√\n' // Nama Lu
-            + 'ORG:#OwnerGanz;\n' // Nama Kontak Owner
-            + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n' // Nomer Lu cok
+            + 'FN:Edgar Emgar\n' // Nama Lu
+            + 'ORG:Edgar Emgar;\n' // Nama Kontak Owner
+            + 'TEL;type=CELL;type=VOICE;waid=6282267031252:+62 822-6703-1252\n' // Nomer Lu cok
             + 'END:VCARD'
 prefix = "#"
 blocked = []
