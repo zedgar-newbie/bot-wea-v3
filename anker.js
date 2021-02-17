@@ -1,8 +1,5 @@
 //starts
 //Author : Nazwa
-//Hayolo numpang nama doang
-//Ckckckck
-//Mengaku yang bukan punya nya
 const {
     WAConnection,
     MessageType,
@@ -101,9 +98,9 @@ const { limit } = require('./database/menu/limit')
 // Load Vcard Contact
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:√ANKER√\n' // Nama Lu
-            + 'ORG:#OwnerGanz;\n' // Nama Kontak Owner
-            + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n' // Nomer Lu cok
+            + 'FN:Edgar Emgar\n' // Nama Lu
+            + 'ORG:#OwnerGanteng;\n' // Nama Kontak Owner
+            + 'TEL;type=CELL;type=VOICE;waid=6282267031252:+62 822-6703-1252\n' // Nomer
             + 'END:VCARD'
 prefix = "#"
 blocked = []
@@ -1172,7 +1169,7 @@ async function starts() {
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 Dark BOT BOT 〙', members_id, true)
+					mentions('╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 BOT GANTENG 〙', members_id, true)
 					break
                 case 'tagall2':
 				anker.updatePresence(from, Presence.composing) 
@@ -1185,7 +1182,7 @@ async function starts() {
 						teks += `╠➥ ${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					anker.sendMessage(from, '╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 Dark BOT BOT 〙', text, {quoted: mek})
+					anker.sendMessage(from, '╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 BOT GANTENG 〙', text, {quoted: mek})
 					break
                 case 'tagall3':
 				anker.updatePresence(from, Presence.composing) 
@@ -1198,7 +1195,7 @@ async function starts() {
 						teks += `╠➥ https://wa.me/${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					anker.sendMessage(from, '╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 Dark BOT BOT 〙', text, {detectLinks: false, quoted: mek})
+					anker.sendMessage(from, '╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 BOT GANTENG 〙', text, {detectLinks: false, quoted: mek})
 					break
                         case 'tagall4':
 				anker.updatePresence(from, Presence.composing) 
@@ -1211,7 +1208,7 @@ async function starts() {
 						teks += `╠➥ ${mem.jid.split('@')[0]}@c.us\n`
 						members_id.push(mem.jid)
 					}
-					anker.sendMessage(from, '╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 Dark BOT BOT 〙', text, {quoted: mek})
+					anker.sendMessage(from, '╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 BOT GANTENG 〙', text, {quoted: mek})
 					break
                 case 'tagall5':
 				anker.updatePresence(from, Presence.composing) 
@@ -1224,7 +1221,7 @@ async function starts() {
 						teks += `╠➥ ${mem.jid.split('@')[0]}@s.whatsapp.net\n`
 						members_id.push(mem.jid)
 					}
-					reply('╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 Dark BOT BOT 〙')
+					reply('╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 BOT GANTENG 〙')
 					break
 				case 'send':
 					var pc = body.slice(6)
